@@ -82,8 +82,7 @@ class Shapes:
         pencil.getscreen().update()
     
 
-    def draw_flame(self):
-        size = 2
+    def draw_flame(self, size):
         pencil = self.pencil
         pencil.penup()
         pencil.color(self.color)
